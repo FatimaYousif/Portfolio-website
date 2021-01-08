@@ -1,0 +1,145 @@
+
+/* navbar */
+.navbar
+{
+    background-color: black !important;
+    margin-bottom: 2em;
+}
+.navbar a{
+    color:white !important;
+}
+.navbar a:active{
+    color:white !important;
+    border-bottom: 1px solid white;
+}
+.navbar a:visited{
+    color:white !important;
+    border-bottom: 1px solid white;
+}
+
+.others ul li
+{
+    margin: 0 1em;
+}
+.navbar-toggler-icon
+{
+    color:white !important; 
+    background-color: white;
+    margin-left:100%;
+}
+.heading
+{
+    text-align: center;
+    margin:5% 0 0 0;
+}
+.heading p
+{
+    font-size: 3rem;
+    font-family: 'Fondamento', cursive;
+    font-weight: bolder;
+}
+
+.icon::before, .icon::after{
+    content: "____";
+}
+
+/* PROJECTS */
+.card {
+    border: 1px solid black !important;
+    border-radius: 0 0 1em 1em;
+}
+
+.card-body{
+text-align: center;
+}
+
+.row  {
+    margin: 0 25%;
+}
+
+.fa-link {
+    color: black;
+    font-size: 1.5em;
+}
+.row11, .row22,.row33,.row,.row2,.row3,.row4,.row5
+{
+    display:flex;
+    flex-wrap: wrap;
+    margin:2.5% 0;
+    justify-content: space-around;
+}
+.row11 .card,.row22 .card,.row33 .card,.row .card, .row2 .card, .row3 .card,.row4 .card,.row5 .card
+{
+    margin:5px 0;
+    box-shadow: -10px 10px 30px black; 
+}
+
+/* footer */
+footer
+{
+    background-color:black;
+    color:white;
+    width:100%;
+}
+.row5
+{
+    display:flex;
+    justify-content: center !important;
+    flex-wrap:wrap;
+    padding: 2em 0; 
+    width:100% !important;
+}
+.row5 ul{
+    margin: 1em 1em;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a
+{
+    text-decoration: none;    
+    color:white;
+    margin-top:3px;
+}
+.col5 li i
+{
+font-size: 2em;
+margin: 0 1em 0.2em 0; 
+}
+.col5 li:first-child, .col5 li:first-child, .col5 li:first-child, .col5 li:first-child
+{
+    margin-bottom: 1em;
+}
+footer p{
+padding: 1.5rem 2rem ;
+}
+#name
+{
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+/* media queries */
+
+@media screen and (max-width:590px) {
+    .row11, .row22,.row33,.row, .row2 ,.row3, .row4,.row5{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container
+    {
+        margin:5% 5%;
+    }
+}
+@media screen and (max-width:330px) {
+    .row11, .row22,.row33,.row, .row2 ,.row3, .row4, .row5{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container
+    {
+        margin:5% 0;
+    }
+}
